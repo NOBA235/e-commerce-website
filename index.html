@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+<header>
+  <h1>My Store</h1>
+  <button id="cart-btn">🛒 Cart</button>
+</header>
+
+<div class="container">
+  <div class="products" id="product-list"></div>
+</div>
+
+<!-- Cart Sidebar -->
+<div class="cart" id="cart">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <div class="total">Total: ₹<span id="total">0</span></div>
+  <button class="checkout-btn" onclick="checkout()">Checkout</button>
+</div>
+    
+</body>
+<script src="script.js"></script>
+</html>
